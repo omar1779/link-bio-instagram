@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width ,initial-scale=1"/> 
+		<title>Omar Sosa - Links</title>
+		<link rel="stylesheet" href="./index.css"/>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+		<script>
+			window.addEventListener("DOMContentLoaded", ()=>{
+  		VANTA.BIRDS({
+  		el: '#vanta',
+  		color1: 0xffffff,
+  		color2: 0x0,
+  		colorMode: "lerp",
+  		birdSize: 1.20,
+  		wingSpan: 40.00,
+  		quantity: 2.00,
+  		backgroundAlpha: 0.00
+		})
+				setTimeout(()=>{
+					const main = document.querySelector("main")
+					main.style.opacity = 1;
+					main.style.filter = "blur(0px)"
+				}, 1500)
+
+	})
+		</script>
+	</head>
+	<body>
+		<div id="vanta"></div>
+		<main>
+			<header>
+				<img src="./assets/WhatsApp Image 2023-01-16 at 2.55.46 PM.jpeg" />
+				<h1>@Omarsosa.dev</h1>
+			</header>
+			<ul>
+				<li>
+
+					<a href="https://github.com/omar1779">
+					<img src="./assets/github-svgrepo-com (1).svg"alt="github" width="25"/>
+						Github</a>
+				</li>
+			</ul>
+			<ul>
+				<li>
+
+					<a href="https://omarsosa1779.online">
+					<img src="./assets/home-4-svgrepo-com.svg" alt="website oficial" width="25"/>
+						Portfolio</a>
+				</li>
+			</ul>	
+			<ul>
+				<li>
+					<a href="https://www.youtube.com/channel/UCKfpqaG3ktbfm_8ey4IbZ9g">
+					<img src="./assets/youtube-color-svgrepo-com.svg" alt="youtube" width="25"/>
+
+						Youtube</a>
+				</li>
+			</ul>
+		</main>
+	</body>
+</html>
